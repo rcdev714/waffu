@@ -29,6 +29,8 @@ export function CategoryRail() {
               alt={section.title}
               width={72}
               height={72}
+              loading="lazy"
+              decoding="async"
             />
             <span>{section.title}</span>
             <small>{section.items.length} opciones</small>

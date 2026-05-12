@@ -43,6 +43,9 @@ export function Hero() {
             alt={activePick.name}
             width={520}
             height={520}
+            fetchPriority="high"
+            loading="eager"
+            decoding="async"
           />
           <div className="hero-showcase__media">
             <span>{activePick.label}</span>

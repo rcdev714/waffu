@@ -1,0 +1,21 @@
+{
+  "name": "WAFFU",
+  "short_name": "WAFFU",
+  "description": "Reposteria y waffles artesanales en Ecuador.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf6ef",
+  "theme_color": "#1c1410",
+  "icons": [
+    {
+      "src": "/waffu-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/waffu-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
